@@ -67,3 +67,24 @@
     font-weight: 700;
     src: local(""), url("../fonts/lora-v25-latin-700italic.woff2") format("woff2"), url("../fonts/lora-v25-latin-700italic.woff") format("woff");
 }
+
+@font-face {
+    font-family: grandSlangBSide;
+    font-style: normal;
+    font-weight: 400;
+    src: local(""), url("../fonts/grandSlangBSide.woff2") format("woff2"), url("../fonts/grandSlangBSide.woff") format("woff");
+}
+
+@font-face {
+    font-family: grandSlangItalic;
+    font-style: italic;
+    font-weight: 400;
+    src: local(""), url("../fonts/grandSlangItalic.woff2") format("woff2"), url("../fonts/grandSlangItalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: grandSlangRoman;
+    font-style: normal;
+    font-weight: 400;
+    src: local(""), url("../fonts/grandSlangRoman.woff2") format("woff2"), url("../fonts/grandSlangRoman.woff") format("woff");
+}
