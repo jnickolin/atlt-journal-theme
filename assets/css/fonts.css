@@ -88,3 +88,24 @@
     font-weight: 400;
     src: local(""), url("../fonts/grandSlangRoman.woff2") format("woff2"), url("../fonts/grandSlangRoman.woff") format("woff");
 }
+
+@font-face {
+    font-family: ebGaramond;
+    font-style: normal;
+    font-weight: 400;
+    src: local(""), url("../fonts/eb-garamond-regular.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: ebGaramond;
+    font-style: italic;
+    font-weight: 400;
+    src: local(""), url("../fonts/eb-garamond-italic.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: ebGaramond;
+    font-style: normal;
+    font-weight: 700;
+    src: local(""), url("../fonts/eb-garamond-bold.ttf") format("ttf");
+}
