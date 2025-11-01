@@ -90,7 +90,7 @@
 }
 
 @font-face {
-    font-family: ebGaramond;
+    font-family: ebGaramondNormal;
     font-style: normal;
     font-weight: 400;
     src: local(""), url("../fonts/eb-garamond-regular.ttf") format("ttf");
