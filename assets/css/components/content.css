@@ -1,0 +1,5 @@
+@import "../vars.css";
+
+.gh-content{
+    font-size: var(--content-font-size);
+}
