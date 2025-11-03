@@ -1,7 +1,7 @@
 @import "../vars.css";
 
 body {
-    font-family: var(--font-bod, var(--font-sans));
+    font-family: var(--font-bod, var(--font-serif));
     font-size: 1.6rem;
     line-height: 1.6;
     color: var(--color-primary-text);
@@ -18,7 +18,7 @@ h5,
 h6 {
     font-family: var(--gh-font-head, var(--font-sans));
     line-height: 1.15;
-    color: var(--color-darker-gray);
+    color: var(--color-dark-blue);
     letter-spacing: 0.01em;
-    text-transform: uppercase;
+    text-transform: uppercase
 }

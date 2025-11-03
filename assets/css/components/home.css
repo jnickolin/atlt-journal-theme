@@ -1,0 +1,38 @@
+@import "../vars.css";
+
+.home-template {
+    background-color: var(--color-dark-blue);
+}
+
+.home-template h1,
+.home-template h2,
+.home-template h3,
+.home-template h4,
+.home-template h5,
+.home-template h6 {
+    color: var(--color-white);
+}
+
+.home-template .gh-article-excerpt {
+    color: var(--color-white);
+}
+
+.home-template .gh-card-excerpt {
+    color: var(--color-white);
+}
+
+.home-template .gh-about-description {
+    color: var(--color-white);
+}
+
+.home-template .gh-head {
+    background-color: var(--color-dark-blue);
+}
+
+.home-template .gh-head-logo {
+    color: var(--color-white);
+}
+
+.home-template .gh-head-menu a {
+    color: var(--color-white);
+}
