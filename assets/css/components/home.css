@@ -1,58 +1,8 @@
 @import "../vars.css";
 
-.home-template {
-    background-color: var(--color-light-blue);
-}
-
-.home-template h1,
-.home-template h2,
-.home-template h3,
-.home-template h4,
-.home-template h5,
-.home-template h6 {
-    color: var(--color-medium-blue);
-}
-
-.home-template .gh-article-excerpt {
-    color: var(--color-medium-blue);
-    font-style: normal;
-}
-
-.home-template .gh-card-excerpt {
-    color: var(--color-medium-blue);
-}
 
 .home-template .gh-about-description {
-    color: var(--color-medium-blue);
     font-style: italic;
-}
-
-.home-template .gh-head {
-    background-color: var(--color-light-blue);
-}
-
-.home-template .gh-head-logo {
-    color: var(--color-medium-blue);
-}
-
-.home-template .gh-head-menu a {
-    color: var(--color-medium-blue);
-}
-
-.home-template .gh-head-link {
-    color: var(--color-medium-blue);
-}
-
-.home-template .gh-section-title::after {
-    flex-grow: 1;
-    height: 1px;
-    margin-left: 1.6rem;
-    content: "";
-    background-color: var(--color-medium-blue);
-}
-
-.home-template .gh-card-meta {
-    color: var(--color-white);
 }
 
 @media screen and (min-width: 992px) {
