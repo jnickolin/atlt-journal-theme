@@ -1,3 +1,4 @@
+/* Desktop styles for HP Banner component */
 .hp-banner-lockup {
     display: flex;
     flex-direction: row;
@@ -29,3 +30,23 @@
     flex: 1;
 }
 
+.hp-banner-image img {
+    max-width: 100%;
+    height: auto;
+}  
+
+/* Mobile styles for HP Banner component */
+
+@media (max-width: 768px) {
+    .hp-banner-lockup {
+        flex-direction: column;
+    }
+
+    .hp-banner-title {
+        font-size: 3.5rem;
+    }
+
+    .hp-banner-caption {
+        font-size: 1.8rem;
+    }
+} 
