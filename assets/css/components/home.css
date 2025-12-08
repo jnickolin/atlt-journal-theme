@@ -5,10 +5,4 @@
     font-style: italic;
 }
 
-@media screen and (min-width: 992px) {
-    .home-template .is-head-stacked .gh-head-menu::before,
-    .home-template .is-head-stacked .gh-head-menu::after {
-        display: none;
-    }
-    
-}
+
