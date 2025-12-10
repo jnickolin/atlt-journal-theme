@@ -123,3 +123,10 @@
     font-weight: 500;
     src: local(""), url("../fonts/montserrat-medium-500.ttf") format("truetype");
 }
+
+@font-face {
+    font-family: JosefinSansMedium;
+    font-style: normal;
+    font-weight: 500;
+    src: local(""), url("../fonts/JosefinSans-Medium.ttf") format("truetype");
+}

@@ -17,8 +17,8 @@ h4,
 h5,
 h6 {
     font-family: var(--gh-font-head, var(--font-sans));
-    line-height: 1.15;
+    line-height: 1;
     color: var(--color-black);
     letter-spacing: 0.01em;
-    text-transform: uppercase
+    text-transform: uppercase;
 }

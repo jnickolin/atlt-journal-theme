@@ -1,0 +1,4 @@
+/* Footer font customizations */
+.gh-foot-inner {
+    font-family: var(--font-sans);
+}

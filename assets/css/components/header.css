@@ -1,1 +1,6 @@
 @import "../vars.css";
+
+.gh-head-logo img {
+    max-height: 50px;
+}
+
