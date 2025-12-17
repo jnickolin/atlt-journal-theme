@@ -31,7 +31,6 @@
 
 .gh-head-logo {
     font-family: var(--logo-font);
-    text-transform: uppercase;
     font-size: 3rem;
     letter-spacing: 0.1rem;
     color: #000;

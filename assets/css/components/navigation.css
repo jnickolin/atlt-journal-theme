@@ -11,11 +11,6 @@
 
 }
 
-.gh-head-brand-wrapper .italic-logo {
-    font-family: grandSlangItalic;
-    text-transform: capitalize;
-}
-
 /* Mobile navigation customizations */ 
 
 @media (max-width: 1024px) {

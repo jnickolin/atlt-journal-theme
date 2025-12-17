@@ -130,3 +130,10 @@
     font-weight: 500;
     src: local(""), url("../fonts/JosefinSans-Medium.ttf") format("truetype");
 }
+
+@font-face {
+    font-family: 'Manufacturing Consent';
+    font-style: normal;
+    font-weight: 400;
+    src: local(""), url("../fonts/ManufacturingConsent-Regular.ttf") format("truetype");
+}
