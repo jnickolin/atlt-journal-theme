@@ -31,7 +31,7 @@
 
 .gh-head-logo {
     font-family: var(--logo-font);
-    font-size: 3rem;
+    font-size: 2vw;
     letter-spacing: 0.1rem;
     color: #000;
 }
@@ -43,10 +43,11 @@
 
 .gh-head-menu,
 .gh-head-actions {
-    font-family: var(--font-sans);
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-family: "DM Mono", Helvetica, Arial, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
     letter-spacing: 0.01em;
+    text-transform: uppercase;
 }
 
 .gh-latest {
@@ -129,12 +130,12 @@
 }
 
 .gh-card-duration {
-    font-family: var(--font-sans);
+    font-family: "DM Mono", Helvetica, Arial, sans-serif;
     font-weight: 400;
 }
 
 .gh-card-date {
-    font-family: var(--font-sans);
+    font-family: "DM Mono", Helvetica, Arial, sans-serif;;
     font-weight: bold;
     color: var(--ghost-accent-color);
 }

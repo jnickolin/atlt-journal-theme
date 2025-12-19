@@ -1,0 +1,3 @@
+.gh-inner {
+    max-width: var(--container-width, 1800px);
+}

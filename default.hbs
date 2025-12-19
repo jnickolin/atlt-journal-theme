@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{meta_title}}</title>
     <link rel="stylesheet" href="{{asset "built/screen.css"}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
 
     {{ghost_head}}
 </head>
@@ -36,9 +39,11 @@
                         <button class="gh-search gh-icon-btn" aria-label="Search this site" data-ghost-search>{{> "icons/search"}}</button>
                     {{/match}}
                 {{/unless}}
+                <div><p>New York, Wednesday, December 17, 2025</p></div>
+                <div><p>5 dollhairs</p></div>
             </nav>
 
-            <div class="gh-head-actions">
+            <!--<div class="gh-head-actions">
                 {{#unless @site.members_enabled}}
                     {{^match @custom.navigation_layout "Stacked"}}
                         <button class="gh-search gh-icon-btn" aria-label="Search this site" data-ghost-search>{{> "icons/search"}}</button>
@@ -58,7 +63,7 @@
                         {{/unless}}
                     </div>
                 {{/unless}}
-            </div>
+            </div>-->
         </div>
     </header>
 

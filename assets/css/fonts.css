@@ -137,3 +137,51 @@
     font-weight: 400;
     src: local(""), url("../fonts/ManufacturingConsent-Regular.ttf") format("truetype");
 }
+
+
+@font-face {
+  font-family: Cheltenam;
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url('../fonts/CheltenhamStdRoman.woff2') format('woff2'), url('../fonts/CheltenhamStdRoman.woff') format('woff');
+}
+
+@font-face {
+  font-family: Cheltenam;
+  font-style: italic;
+  font-weight: 400;
+  src: local(""), url('../fonts/CheltenhamStdItalic.woff2') format('woff2'), url('../fonts/CheltenhamStdItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: Cheltenam;
+  font-style: normal;
+  font-weight: bold;
+  src: local(""), url('../fonts/CheltenhamStdBoldExtraCondensed.woff2') format('woff2'), url('../fonts/CheltenhamStdBoldExtraCondensed.woff') format('woff');
+}
+
+@font-face {
+  font-family: Cheltenam;
+  font-style: italic;
+  font-weight: bold;
+  src: local(""), url('../fonts/CheltenhamStdBoldCondensedItalic.woff2') format('woff2'), url('../fonts/CheltenhamStdBoldCondensedItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Sarina Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: local(""), url('../fonts/Sarina-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Libre Baskerville";
+    font-style: normal;
+    src: local(""), url('../fonts/LibreBaskerville-VariableFont_wght.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Libre Baskerville";
+    font-style: italic;
+    src: local(""), url('../fonts/LibreBaskerville-Italic-VariableFont_wght.ttf') format("truetype");
+}

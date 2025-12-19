@@ -1,7 +1,7 @@
 :root {
     --color-primary-text: #333;
     --color-secondary-text: #999;
-    --color-white: #ffffff;
+    --color-white: #e6e5e1;
     --color-lighter-gray: #f6f6f6;
     --color-light-gray: #c6c6c6;
     --color-mid-gray: #ccc;
@@ -14,12 +14,12 @@
     --color-yellow: #F9DC5C;
     --color-red: #D00000;
     --color-lavender: #FF84E8;
-    --logo-font: 'Manufacturing Consent', serif;
-    --gh-font-head: grandSlangRoman, serif;
+    --logo-font: "Sarina Regular", sans-serif;
+    --gh-font-head: Cheltenam, serif;
     --font-bod: "EB Garamond", serif;
     --font-sans: JosefinSansMedium, Helvetica, Arial, sans-serif; /* stylelint-disable-line value-keyword-case */
     --font-serif: Lora, serif; /* stylelint-disable-line value-keyword-case */
-    --font-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace; /* stylelint-disable-line value-keyword-case */
+    --font-mono: "DM Mono", Consolas, Monaco, Liberation Mono, Lucida Console, monospace; /* stylelint-disable-line value-keyword-case */
     --head-nav-gap: 2.8rem;
     --h1-size: 4.6rem;
     --gap: 3.6rem;
