@@ -21,9 +21,39 @@
     margin-bottom: 0.95rem;
 }
 
+.hp-gh-article-title {
+    font-size: 9.5rem;
+    font-weight: bold;
+    font-style: normal;
+}
+
 .hp-banner-caption {
     font-size: 2.5rem;
     line-height: 1.3;
+}
+
+.subhead-lockup {
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items:flex-start;
+    margin-top: 50px;
+}
+
+.hp-gh-card-meta {
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+}
+
+.hp-gh-article-excerpt {
+    font-family: var(--gh-font-head), serif;
+    font-size: 5rem;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    width: 70%;
 }
 
 .hp-banner-image {

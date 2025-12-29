@@ -31,7 +31,7 @@
 
 .gh-head-logo {
     font-family: var(--logo-font);
-    font-size: 2vw;
+    font-size: 1.75vw;
     letter-spacing: 0.1rem;
     color: #000;
 }
@@ -44,15 +44,17 @@
 .gh-head-menu,
 .gh-head-actions {
     font-family: "DM Mono", Helvetica, Arial, sans-serif;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: 400;
     letter-spacing: 0.01em;
     text-transform: uppercase;
+    text-decoration: underline;
 }
 
 .gh-latest {
     margin-top: 4rem;
     margin-bottom: 12rem;
+    padding-right: 20%;
 }
 
 .gh-latest .gh-card-meta {

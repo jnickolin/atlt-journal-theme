@@ -39,11 +39,9 @@
                         <button class="gh-search gh-icon-btn" aria-label="Search this site" data-ghost-search>{{> "icons/search"}}</button>
                     {{/match}}
                 {{/unless}}
-                <div><p>New York, Wednesday, December 17, 2025</p></div>
-                <div><p>5 dollhairs</p></div>
             </nav>
 
-            <!--<div class="gh-head-actions">
+            <div class="gh-head-actions">
                 {{#unless @site.members_enabled}}
                     {{^match @custom.navigation_layout "Stacked"}}
                         <button class="gh-search gh-icon-btn" aria-label="Search this site" data-ghost-search>{{> "icons/search"}}</button>
@@ -54,7 +52,7 @@
                         {{#unless @member}}
                             {{#unless @site.members_invite_only}}
                                 <a class="gh-head-link" href="#/portal/signin" data-portal="signin">Sign in</a>
-                                <a class="gh-head-btn gh-btn gh-primary-btn" href="#/portal/signup" data-portal="signup">{{> "icons/email"}} Subscribe</a>
+                                <a class="gh-head-link" href="#/portal/signup" data-portal="signup">Subscribe</a>
                             {{else}}
                                 <a class="gh-head-btn gh-btn gh-primary-btn" href="#/portal/signin" data-portal="signin">Sign in</a>
                             {{/unless}}
@@ -63,7 +61,7 @@
                         {{/unless}}
                     </div>
                 {{/unless}}
-            </div>-->
+            </div>
         </div>
     </header>
 
