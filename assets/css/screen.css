@@ -26,7 +26,7 @@
     --font-serif: Lora, Times, serif; 
     --color-primary-text: var(--color-black);
     --color-darker-gray: var(--color-black);
-    --head-nav-gap: 3.2rem;
+    --head-nav-gap: 5.2rem;
 }
 
 .gh-head-logo {
@@ -44,7 +44,7 @@
 .gh-head-menu,
 .gh-head-actions {
     font-family: "DM Mono", Helvetica, Arial, sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     font-weight: 400;
     letter-spacing: 0.01em;
     text-transform: uppercase;
@@ -52,8 +52,8 @@
 }
 
 .gh-latest {
-    margin-top: 4rem;
-    margin-bottom: 12rem;
+    margin-top: 10rem;
+    margin-bottom: 30rem;
     padding-right: 20%;
 }
 
@@ -138,7 +138,7 @@
 
 .gh-card-date {
     font-family: "DM Mono", Helvetica, Arial, sans-serif;;
-    font-weight: bold;
+    font-weight: regular;
     color: var(--ghost-accent-color);
 }
 
@@ -463,8 +463,8 @@
 
 .gh-article-meta {
     font-family: var(--font-sans);
-    margin-bottom: 1.8rem;
-    font-size: 1.2rem;
+    margin-bottom: 1.4rem;
+    font-size: 1.35rem;
     font-weight: 500;
     line-height: 1.5;
     color: var(--color-secondary-text);

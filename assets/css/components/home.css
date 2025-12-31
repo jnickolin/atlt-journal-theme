@@ -5,4 +5,15 @@
     font-style: italic;
 }
 
+.home-template {
+    min-height: 100vh;
+    background:
+    linear-gradient(
+    175deg,    
+    rgb(250, 0, 9) 5%,
+    rgb(234, 65, 30) 15%,
+    rgb(22, 21, 158) 40%
+  );
+}
+
 

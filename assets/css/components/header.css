@@ -6,6 +6,10 @@
     font-weight: 400;
 }
 
+.gh-head-members {
+    gap: 45px;
+}
+
 /*@media (min-width: 992px) {
     .is-head-stacked .gh-head-brand {
         height: 200px;
