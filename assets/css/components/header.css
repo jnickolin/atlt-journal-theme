@@ -10,6 +10,15 @@
     gap: 45px;
 }
 
+.home-template .gh-head {
+    background:
+    linear-gradient(
+    175deg,    
+    #C9DB45 45%,
+    #96E79B 175%
+  );
+}
+
 /*@media (min-width: 992px) {
     .is-head-stacked .gh-head-brand {
         height: 200px;

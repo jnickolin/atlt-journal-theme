@@ -8,6 +8,7 @@
     --color-dark-gray: #444;
     --color-darker-gray: #15171a;
     --color-black: #000000;
+    --color-dark-green: #125440;
     --color-light-blue: #97C8EB;
     --color-medium-blue: #1470ad;
     --color-dark-blue: #030027;
@@ -16,7 +17,7 @@
     --color-lavender: #FF84E8;
     --logo-font: "Sarina Regular", sans-serif;
     --gh-font-head: Cheltenam, serif;
-    --font-bod: "EB Garamond", serif;
+    --font-bod: "georgia", serif;
     --font-sans: JosefinSansMedium, Helvetica, Arial, sans-serif; /* stylelint-disable-line value-keyword-case */
     --font-serif: Lora, serif; /* stylelint-disable-line value-keyword-case */
     --font-mono: "DM Mono", Consolas, Monaco, Liberation Mono, Lucida Console, monospace; /* stylelint-disable-line value-keyword-case */
