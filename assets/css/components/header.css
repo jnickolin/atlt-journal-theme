@@ -19,6 +19,11 @@
   );
 }
 
+.gh-head-btn.gh-btn {
+    font-size: inherit;
+    font-weight: 400;
+}
+
 /*@media (min-width: 992px) {
     .is-head-stacked .gh-head-brand {
         height: 200px;

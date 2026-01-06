@@ -1,4 +1,12 @@
-/* Footer font customizations */
+/* Footer desktop customizations */
+
+.gh-foot {
+    width: 96%;
+    max-width: 1800px;
+    margin: 0 auto;
+    border-top: 2px solid var(--color-dark-blue);
+}
+
 .gh-foot-inner {
     font-family: var(--font-mono);
 }

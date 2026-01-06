@@ -1,3 +1,7 @@
+/* Primary button styles */
+
 .gh-btn {
     border-radius: 1px;
+    background-color: #ffffff00;
+    color: var(--color-dark-blue);
 }
