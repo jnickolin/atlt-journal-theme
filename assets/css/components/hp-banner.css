@@ -1,4 +1,5 @@
 /* Desktop styles for HP Banner component */
+
 .hp-banner-lockup {
     display: flex;
     flex-direction: row;
@@ -44,7 +45,6 @@
 }
 
 .hp-gh-card-meta {
-    margin-top: 10px;
     text-transform: uppercase;
     font-size: 1.25rem;
 }
@@ -67,7 +67,7 @@
     height: auto;
 }  
 
-/* Mobile styles for HP Banner component */
+/* Tablet styles for HP Banner component */
 
 @media (max-width: 1024px) {
     .hp-banner-lockup {
@@ -95,4 +95,39 @@
     .hp-banner-image img {
         width: 100%;
     }
+
+    .hp-gh-article-title {
+    font-size: 7.5rem;
+    line-height: 7.25rem;
+    max-width: 100%;
+    }
+
+    .hp-gh-article-excerpt {
+    font-size: 4rem;
+    line-height: 4rem;
+    width: 70%;
+}
 } 
+
+/* Mobile styles for HP Banner Component */
+
+@media (max-width: 768px) {
+    .hp-banner-title {
+    font-size: 3rem;
+    }
+
+    .hp-banner-caption {
+    font-size: 2rem;
+    }
+
+    .hp-gh-article-title {
+    font-size: 6rem;
+    line-height: 6rem;
+    }
+
+    .hp-gh-article-excerpt {
+    font-size: 3rem;
+    line-height: 3rem;
+    width: 70%;
+    }
+}

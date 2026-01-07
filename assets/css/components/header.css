@@ -10,15 +10,6 @@
     gap: 45px;
 }
 
-.home-template .gh-head {
-    background:
-    linear-gradient(
-    175deg,    
-    #C9DB45 45%,
-    #96E79B 175%
-  );
-}
-
 .gh-head-btn.gh-btn {
     font-size: inherit;
     font-weight: 400;

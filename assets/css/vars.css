@@ -9,7 +9,7 @@
     --color-darker-gray: #15171a;
     --color-black: #000000;
     --color-dark-green: #125440;
-    --color-light-blue: ##ABDAFB;
+    --color-light-blue: #b6e4ff;
     --color-medium-blue: #1470ad;
     --color-dark-blue: #054A91;
     --color-yellow: #F9DC5C;
@@ -25,5 +25,5 @@
     --h1-size: 4.6rem;
     --gap: 3.6rem;
     --header-spacing: 80px;
-    --content-font-size: 2.25rem;
+    --content-font-size: 2.1rem;
 }

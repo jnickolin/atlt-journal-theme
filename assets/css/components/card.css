@@ -1,21 +1,40 @@
 @import '../vars.css';
-/* Bookmark */
-/* ---------------------------------- */
 
-.kg-bookmark-card .kg-bookmark-title,
-.kg-bookmark-card .kg-bookmark-description,
-.kg-bookmark-author {
-    font-family: var(--font-sans);
+/* Bookmark Customizations
+/* ---------------------------------------------------------- */
+
+.kg-bookmark-card .kg-bookmark-title {
+    font-family: var(--gh-font-head);
+    color: var(--color-dark-blue);
+}
+
+.kg-bookmark-card .kg-bookmark-description {
+    font-family: var(--font-bod);
+    color: var(--color-dark-blue);
+}
+
+
+.kg-bookmark-card .kg-bookmark-author {
+    font-family: var(--logo-font);
+    color: var(--color-dark-blue);
+}
+
+.kg-bookmark-card .kg-bookmark-publisher {
+    font-family: var(--font-mono);
+    color: var(--color-dark-blue);
 }
 
 /* Call to Action / Sponsor Module */
 /* ---------------------------------- */
 
-.kg-cta-sponsor-label {
-    font-family: var(--font-sans);
+.kg-cta-sponsor-label span {
+    font-family: var(--font-mono);
 }
 
 .kg-callout-card-blue {
     background: var(--color-light-blue);
 }
 
+a.kg-cta-button {
+    font-family: var(--font-mono);
+}    

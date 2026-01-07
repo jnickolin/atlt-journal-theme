@@ -1,10 +1,10 @@
 /* Footer desktop customizations */
 
 .gh-foot {
-    width: 96%;
-    max-width: 1800px;
-    margin: 0 auto;
     border-top: 2px solid var(--color-dark-blue);
+    margin-left: var(--gap);
+    margin-right: var(--gap);
+    margin-top: 100px;
 }
 
 .gh-foot-inner {

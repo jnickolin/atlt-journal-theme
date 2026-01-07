@@ -5,15 +5,22 @@
     font-style: italic;
 }
 
-.home-template {
-    min-height: 100vh;
-    background:
-      linear-gradient(
-      175deg,    
-      #C9DB45 5%,
-      #96E79B 15%,
-      #ABDAFB 40%
-    );
+.home-template #gh-head,
+.home-template .gh-main,
+.home-template .gh-content,
+.home-template .gh-outer,
+.home-template .gh-inner {
+  background: transparent;
+}
+
+.home-template .gh-site {
+  min-height: 100vh;
+  background: linear-gradient(
+    170deg,
+    #cde84c 0%,
+    #9fe8a4 25%,
+    #b6e4ff 40%
+  );
 }
 
 

@@ -25,7 +25,7 @@
     --font-sans: JosefinSansMedium, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif; /* stylelint-disable-line value-keyword-case */
     --font-serif: Lora, Times, serif; 
     --color-primary-text: var(--color-dark-blue);
-    --color-darker-gray: var(--color-dark-blue);
+    --color-darker-gray: #444;
     --head-nav-gap: 5.2rem;
 }
 
@@ -53,7 +53,7 @@
 
 .gh-latest {
     margin-top: 10rem;
-    margin-bottom: 30rem;
+    margin-bottom: 35rem;
     padding-right: 20%;
 }
 
@@ -199,6 +199,7 @@
 }
 
 .gh-about-icon {
+    display: none;
     width: 64px;
     height: 64px;
     margin-right: 2rem;
@@ -489,15 +490,6 @@
     line-height: 1;
 }
 
-.gh-article-excerpt {
-    max-width: 920px;
-    margin-top: 1.6rem;
-    font-size: 2.8rem;
-    line-height: 1.35;
-    color: var(--color-dark-blue);
-    font-style: italic
-}
-
 .gh-article-footer {
     padding-top: 3.2rem;
     margin-top: 8rem;
@@ -693,6 +685,12 @@
         grid-column: main-start / main-end;
         max-width: 480px;
         padding-top: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .gh-latest {
+        padding-right: 0;
     }
 }
 

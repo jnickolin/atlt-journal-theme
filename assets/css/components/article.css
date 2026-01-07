@@ -1,0 +1,10 @@
+@import "../vars.css";
+
+.gh-article-excerpt {
+    max-width: 920px;
+    margin-top: 1.6rem;
+    font-size: var(--content-font-size);
+    line-height: 1.35;
+    color: var(--color-dark-blue);
+    font-style: italic
+}
