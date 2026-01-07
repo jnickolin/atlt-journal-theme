@@ -1,10 +1,15 @@
 @import "../vars.css";
 
+/* Content font size customization */
+/* ---------------------------------------------------------- */
+
 .gh-content{
     font-size: var(--content-font-size);
 }
 
-/* Default vertical spacing */
+/* Default vertical spacing customization */
+/* ---------------------------------------------------------- */
+
 .gh-content > * + * {
     margin-top: calc(1.0em * var(--content-spacing-multiplier, 1));
 }

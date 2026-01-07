@@ -1,3 +1,8 @@
+@import "../vars.css";
+
+/* Layout container width customization */
+/* ---------------------------------------------------------- */
+
 .gh-inner {
     max-width: var(--container-width, 1800px);
 }

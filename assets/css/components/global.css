@@ -1,5 +1,8 @@
 @import "../vars.css";
 
+/* Global text customizations */
+/* ---------------------------------------------------------- */
+
 body {
     font-family: var(--font-bod, var(--font-serif));
     font-size: 1.6rem;

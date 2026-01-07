@@ -1,4 +1,5 @@
 /* Desktop styles for HP Banner component */
+/* ---------------------------------------------------------- */
 
 .hp-banner-lockup {
     display: flex;
@@ -68,6 +69,7 @@
 }  
 
 /* Tablet styles for HP Banner component */
+/* ---------------------------------------------------------- */
 
 @media (max-width: 1024px) {
     .hp-banner-lockup {
@@ -110,6 +112,7 @@
 } 
 
 /* Mobile styles for HP Banner Component */
+/* ---------------------------------------------------------- */
 
 @media (max-width: 768px) {
     .hp-banner-title {

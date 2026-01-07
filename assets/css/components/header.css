@@ -1,6 +1,7 @@
 @import "../vars.css";
 
 /* Header desktop custom styles */
+/* ---------------------------------------------------------- */
 
 .gh-head-logo {
     font-weight: 400;
@@ -14,24 +15,3 @@
     font-size: inherit;
     font-weight: 400;
 }
-
-/*@media (min-width: 992px) {
-    .is-head-stacked .gh-head-brand {
-        height: 200px;
-    }
-
-    .is-head-stacked .gh-head-menu {
-        justify-content: space-between;
-        margin: 0;
-    }
-
-    .is-head-stacked .gh-head-menu:after, .is-head-stacked .gh-head-menu:before {
-        top: 200px;
-        background-color: var(--color-white);
-    }
-
-    .is-head-stacked .gh-head-menu:after {
-        top: 250px;
-        height: 2px;
-    }
-} */

@@ -24,8 +24,8 @@
     color: var(--color-dark-blue);
 }
 
-/* Call to Action / Sponsor Module */
-/* ---------------------------------- */
+/* Call to Action / Sponsor Module Customizations */
+/* ----------------------------------------------------------- */
 
 .kg-cta-sponsor-label span {
     font-family: var(--font-mono);

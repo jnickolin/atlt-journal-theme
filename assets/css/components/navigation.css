@@ -1,10 +1,7 @@
 @import "../vars.css";
 
-/* Desktop navigation customizations */
-
-
-
-/* Mobile navigation customizations */ 
+/* Mobile navigation customizations */
+/* ---------------------------------------------------------- */
 
 @media (max-width: 1024px) {
     .gh-head-brand-wrapper p {

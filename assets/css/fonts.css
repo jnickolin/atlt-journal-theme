@@ -69,77 +69,6 @@
 }
 
 @font-face {
-    font-family: grandSlangBSide;
-    font-style: normal;
-    font-weight: 400;
-    src: local(""), url("../fonts/grandSlangBSide.woff2") format("woff2"), url("../fonts/grandSlangBSide.woff") format("woff");
-}
-
-@font-face {
-    font-family: grandSlangItalic;
-    font-style: italic;
-    font-weight: 400;
-    src: local(""), url("../fonts/grandSlangItalic.woff2") format("woff2"), url("../fonts/grandSlangItalic.woff") format("woff");
-}
-
-@font-face {
-    font-family: grandSlangRoman;
-    font-style: normal;
-    font-weight: 400;
-    src: local(""), url("../fonts/grandSlangRoman.woff2") format("woff2"), url("../fonts/grandSlangRoman.woff") format("woff");
-}
-
-@font-face {
-    font-family: "EB Garamond";
-    font-style: normal;
-    font-weight: 400;
-    src: local(""), url("../fonts/eb-garamond-regular.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "EB Garamond";
-    font-style: italic;
-    font-weight: 400;
-    src: local(""), url("../fonts/eb-garamond-italic.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "EB Garamond";
-    font-style: normal;
-    font-weight: 700;
-    src: local(""), url("../fonts/eb-garamond-bold.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    src: local(""), url("../fonts/montserrat-regular-400.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    src: local(""), url("../fonts/montserrat-medium-500.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: JosefinSansMedium;
-    font-style: normal;
-    font-weight: 500;
-    src: local(""), url("../fonts/JosefinSans-Medium.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: 'Manufacturing Consent';
-    font-style: normal;
-    font-weight: 400;
-    src: local(""), url("../fonts/ManufacturingConsent-Regular.ttf") format("truetype");
-}
-
-
-@font-face {
   font-family: Cheltenam;
   font-style: normal;
   font-weight: 400;
@@ -172,18 +101,6 @@
     font-style: normal;
     font-weight: 400;
     src: local(""), url('../fonts/Sarina-Regular.ttf') format("truetype");
-}
-
-@font-face {
-    font-family: "Libre Baskerville";
-    font-style: normal;
-    src: local(""), url('../fonts/LibreBaskerville-VariableFont_wght.ttf') format("truetype");
-}
-
-@font-face {
-    font-family: "Libre Baskerville";
-    font-style: italic;
-    src: local(""), url('../fonts/LibreBaskerville-Italic-VariableFont_wght.ttf') format("truetype");
 }
 
 
