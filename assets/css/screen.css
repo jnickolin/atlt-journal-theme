@@ -280,12 +280,12 @@
 }
 
 .gh-topic-count {
+    font-family: var(--font-mono);
     padding: 0.4rem 0.8rem;
     font-size: 1.3rem;
     line-height: 1;
-    border: 1px solid var(--color-light-gray);
-    border-radius: 32px;
     color: var(--color-dark-blue);
+    text-decoration: underline;
 }
 
 .gh-recommendations .recommendations {

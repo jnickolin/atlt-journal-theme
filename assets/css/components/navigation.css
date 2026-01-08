@@ -1,10 +1,19 @@
 @import "../vars.css";
 
-/* Mobile navigation customizations */
+/* Tablet navigation customizations */
 /* ---------------------------------------------------------- */
 
 @media (max-width: 1024px) {
     .gh-head-brand-wrapper p {
         font-size: 2.5rem;
+    }
+}
+
+/* Mobile navigation customizations */
+/* ---------------------------------------------------------- */
+
+@media (max-width: 768px) {
+    .gh-head-brand-wrapper p {
+        font-size: 2rem;
     }
 }
