@@ -9,6 +9,6 @@ if (el) {
     new Typewriter(el, {
         strings: [el.getAttribute('data-title')],
         autoStart: true,
-        loop: false
+        loop: true
     });
 }
