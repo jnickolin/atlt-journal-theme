@@ -17,6 +17,8 @@ jobs:
 
       - run: npm ci
 
+      - run: npx gulp build
+
       - uses: TryGhost/action-deploy-theme@v1
         with:
           api-url: https://a-time-like-this.ghost.io
