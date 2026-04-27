@@ -1,1 +1,0 @@
-(t=>{t=t&&t.hasOwnProperty("default")?t.default:t,pagination(!1);var e=document.getElementById("typewriter-target");e&&new t(e,{strings:[e.getAttribute("data-title")],autoStart:!0,loop:!1})})(Typewriter);//# sourceMappingURL=main.js.map
