@@ -1,2 +1,15 @@
+# macOS
+.DS_Store
+
+# Dependencies
 node_modules/
-**/.DS_Store
+
+# Build artifacts
+assets/built/
+
+# Distribution
+dist/
+*.zip
+
+# Claude Code
+CLAUDE.md
