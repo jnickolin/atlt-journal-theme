@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-05-13
+
+### Added
+
 - Release workflow to create github release using latest changelog entry, triggered by tag push
 
 ## [1.0.0] - 2026-05-13
