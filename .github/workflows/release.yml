@@ -1,0 +1,39 @@
+name: Create Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Extract changelog entry
+        id: changelog
+        run: |
+          # Strip leading 'v' from tag to match changelog header e.g. [1.0.0]
+          VERSION="${GITHUB_REF_NAME#v}"
+
+          # Extract the block between this version's header and the next '## [' header
+          NOTES=$(awk "/^## \[$VERSION\]/{found=1; next} found && /^## \[/{exit} found{print}" CHANGELOG.md)
+
+          if [ -z "$NOTES" ]; then
+            echo "No changelog entry found for version $VERSION" >&2
+            exit 1
+          fi
+
+          # Write to a file to safely pass multi-line content to the next step
+          echo "$NOTES" > release_notes.txt
+
+      - name: Create GitHub release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" \
+            --title "$GITHUB_REF_NAME" \
+            --notes-file release_notes.txt
