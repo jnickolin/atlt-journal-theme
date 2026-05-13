@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.3] - 2026-05-13
+
+### Changed
+
+- Fix homepage layout shift by pre-reserving typewriter element height in main.js before animation starts
+
 ## [1.0.2] - 2026-05-13
 
 ### Added
