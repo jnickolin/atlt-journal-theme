@@ -1,6 +1,6 @@
-# Journal (Customized)
+# Customized Ghost Journal Theme
 
-A customized [Ghost](https://ghost.org) theme built on top of the official [Journal theme](https://github.com/TryGhost/Journal) by Ghost Foundation.
+Customized handlebars theme for the blog, atimelikethis.net. Built on top of the official [Journal theme](https://github.com/TryGhost/Journal) by Ghost Foundation.
 
 **Live site: https://atimelikethis.net**
 

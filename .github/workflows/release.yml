@@ -27,8 +27,12 @@ jobs:
             exit 1
           fi
 
-          # Write to a file to safely pass multi-line content to the next step
-          echo "$NOTES" > release_notes.txt
+          # Extract title (H1) and first paragraph from README as header
+          README_TITLE=$(grep '^# ' README.md | head -1 | sed 's/^# //')
+          README_DESC=$(awk '/^# /{found=1; next} found && /^[^#]/{print; exit}' README.md)
+
+          # Write header + changelog entry to file
+          printf "%s\n\n%s\n\n%s" "$README_TITLE" "$README_DESC" "$NOTES" > release_notes.txt
 
       - name: Create GitHub release
         env:
