@@ -1,38 +1,39 @@
-# Journal
+# Journal (Customized)
 
-A minimal, typography-heavy newsletter theme for [Ghost](https://github.com/TryGhost/Ghost).
+A customized [Ghost](https://ghost.org) theme built on top of the official [Journal theme](https://github.com/TryGhost/Journal) by Ghost Foundation.
 
-**Demo: https://journal.ghost.io**
+**Live site: https://atimelikethis.net**
 
-# Instructions
+## Customizations
 
-1. [Download this theme](https://github.com/TryGhost/Journal/archive/main.zip)
-2. Log into Ghost, and go to the `Design` settings area to upload the zip file
+This fork extends the base Journal theme with:
 
-# Development
+- **Typewriter animation** — a character-by-character reveal effect on the homepage banner, driven by a custom JS class with configurable speed and delay
+- **Custom JS build pipeline** — Rollup bundles `assets/js/main.js` and any npm packages into `main.min.js`; Ghost shared assets are concatenated separately into `vendor.min.js` to preserve required load order
+- **GitHub Actions deployment** — a workflow that compiles assets and packages the theme on push to `main`, then uploads it directly to the Ghost Admin API
 
-Edition styles are compiled using Gulp/PostCSS to polyfill future CSS spec. You'll need [Node](https://nodejs.org/), [Yarn](https://yarnpkg.com/) and [Gulp](https://gulpjs.com) installed globally. After that, from the theme's root directory:
+## Development
 
-```bash
-# Install
-yarn
-
-# Run build & watch for changes
-yarn dev
-```
-
-Now you can edit `/assets/css/` files, which will be compiled to `/assets/built/` automatically.
-
-The `zip` Gulp task packages the theme files into `dist/journal.zip`, which you can then upload to your site.
+Requires [Node.js](https://nodejs.org/). From the project root:
 
 ```bash
-yarn zip
+# Install dependencies
+npm install
+
+# Build and watch for changes
+npm run dev
+
+# Validate theme with gscan
+npm run test
+
+# Package theme as a zip for manual upload
+npm run zip
 ```
 
-# Contribution
+CSS source lives in `assets/css/` and is compiled to `assets/built/` via Gulp/PostCSS. JS source lives in `assets/js/` and is bundled via Rollup into `assets/built/`.
 
-This repo is synced automatically with [TryGhost/Themes](https://github.com/TryGhost/Themes) monorepo. If you're looking to contribute or raise an issue, head over to the main repository [TryGhost/Themes](https://github.com/TryGhost/Themes) where our official themes are developed.
+## Based on
 
-# Copyright & License
+[Journal](https://github.com/TryGhost/Journal) by [Ghost Foundation](https://ghost.org), released under the [MIT License](LICENSE).
 
-Copyright (c) 2013-2025 Ghost Foundation - Released under the [MIT license](LICENSE).
+Customizations copyright (c) 2025 Jojo Nickolin.
