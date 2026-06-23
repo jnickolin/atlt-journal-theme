@@ -697,3 +697,7 @@
         top: 1px;
     }
 }
+
+.gh-subscribe-input {
+    background-color: transparent !important;
+}
